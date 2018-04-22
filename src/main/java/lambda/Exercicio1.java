@@ -8,7 +8,7 @@ public class Exercicio1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	//	lambda();
+	    //lambda();
 		nomesReduzidos();
 	}
 
@@ -24,6 +24,8 @@ public class Exercicio1 {
 		 
 		//Implementação com expressões lambda e StreamAPI       
 	
+	//	list.forEach(n -> System.out.println(n));
+		
 		list.forEach(n -> System.out.println(n));
 
 
@@ -38,6 +40,9 @@ public class Exercicio1 {
 		     System.out.println(nome);
 		 }
 
+		
+		 
+		 
 		 nomes.forEach(nome -> System.out.println(nome));
 		
 		
